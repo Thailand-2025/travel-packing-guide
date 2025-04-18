@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Packing Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        h2 {
+            cursor: pointer;
+            background: #e9e9e9;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        th {
+            background: #eee;
+        }
+        td.center {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .hidden { display: none; }
+    </style>
+    <script>
+        function toggle(id) {
+            var x = document.getElementById(id);
+            if (x.classList.contains("hidden")) {
+                x.classList.remove("hidden");
+            } else {
+                x.classList.add("hidden");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>🧳 Travel Packing Guide</h1>
+<h2 onclick="toggle('section1')">▼ Carry-On Essentials – Clothing</h2><div id="section1"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>Activewear</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Hat</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Pyjamas</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Shorts or tights</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Socks & underwear</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Swimwear and cover-ups</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Tops or T-shirts</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Walking shoes & flip-flops/slides</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section2')">▼ Carry-On Essentials – Miscellaneous</h2><div id="section2"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>House Keys</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Luggage scale (to avoid overweight fees)</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section3')">▼ Carry-On Essentials – Money</h2><div id="section3"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>Cash (AUD 2000)</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Credit & Debit Cards (Wise, Up Bank)</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section4')">▼ Carry-On Essentials – Onboard</h2><div id="section4"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>AirPods</td><td class="center"></td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Eye masks</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center"></td></tr><tr><td>Gum or lollies (optional)</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center"></td></tr><tr><td>Mobile phone</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Power converters for wall sockets</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Powerbank</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Pre-packed snacks (optional)</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td><td class="center"></td></tr><tr><td>Reading glasses</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td><td class="center"></td></tr><tr><td>Sun glasses</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Travel blanket & pillow</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center"></td></tr><tr><td>USB & Lightning cables + adaptors</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section5')">▼ Carry-On Essentials – Toiletries</h2><div id="section5"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>Antibacterial wipes & hand sanitiser</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center"></td></tr><tr><td>Bath Soap</td><td class="center"></td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Comb or hairbrush</td><td class="center"></td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Deodorant (100g or under)</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Feminine products</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center"></td></tr><tr><td>Prescribed medications & painkillers</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Razor</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Sunscreen (100g or under)</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Toothbrush, toothpaste & floss</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section6')">▼ Carry-On Essentials – Travel Documents</h2><div id="section6"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>Accommodation details</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Flight tickets and itinerary</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Passport</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr><tr><td>Travel insurance</td><td class="center">✓</td><td class="center"></td><td class="center">✓</td><td class="center">✓</td></tr></table></div><h2 onclick="toggle('section7')">▼ Carry-On Essentials – Other</h2><div id="section7"><table><tr><th>Item Description</th><th>Sema</th><th>Selin</th><th>Katie</th><th>Gavin</th></tr><tr><td>Vapes</td><td class="center"></td><td class="center"></td><td class="center"></td><td class="center"></td></tr><tr><td>Nicorette gum (optional)</td><td class="center">✓</td><td class="center"></td><td class="center"></td><td class="center"></td></tr><tr><td>Nicorette patches (optional)</td><td class="center">✓</td><td class="center"></td><td class="center"></td><td class="center"></td></tr></table></div>
+</body>
+</html>
