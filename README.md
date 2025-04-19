@@ -5,7 +5,7 @@ Designed to visually track responsibilities and packing status across family mem
 
 ## ✅ Live Site
 Once deployed via GitHub Pages, access the live guide here:  
-**https://<your-github-username>.github.io/<repo-name>/**
+**https://thailand-2025.github.io/travel-packing-guide/**
 
 ## ✨ Features
 - Collapsible packing categories
