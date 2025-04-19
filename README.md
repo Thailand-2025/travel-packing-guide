@@ -24,7 +24,7 @@ Once deployed via GitHub Pages, access the live guide here:
 3. Toiletries  
 4. Money  
 5. Travel Documents  
-6. Miscellaneous (includes merged “Other” items, sorted A–Z)
+6. Miscellaneous
 
 ## 🔧 How to Use
 1. Clone this repository or upload via GitHub.
