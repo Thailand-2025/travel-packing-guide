@@ -1,6 +1,7 @@
 # ✈️ Thailand Travel Packing Guide 2025
 
-This project provides a mobile-optimised, colour-coded, and collapsible packing checklist for multi-traveller trips.  
+This repository contains a mobile-friendly, collapsible task list for your upcoming Thailand trip in 2025.
+This provides a mobile-optimised, colour-coded, and collapsible packing checklist for multi-traveller trips.
 Designed to visually track responsibilities and packing status across family members.
 
 ## ✅ Live Site
