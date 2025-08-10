@@ -1,4 +1,4 @@
-# ![Luggage Icon](https://github.com/TW-Thailand/GJN-2025-packing/blob/main/assets/icons/icon-512x512.png?raw=true) Thailand Travel Packing Guide 2025
+# <img src="https://github.com/TW-Thailand/GJN-2025-packing/blob/main/assets/icons/icon-512x512.png?raw=true" alt="Luggage Icon" width="24"/> Thailand Travel Packing Guide 2025
 
 This repository contains a mobile-friendly, collapsible task list for your upcoming Thailand trip in 2025.
 This provides a mobile-optimised, colour-coded, and collapsible packing checklist for multi-traveller trips.
